@@ -23,6 +23,8 @@ And then follow the [instructions](https://github.com/Carthage/Carthage#if-youre
 ## Usage
 
 ```swift
+import ColorModel
+
 let purple = UIColor.purpleColor()
 let colorModel = ColorModel(color: purple)
 
