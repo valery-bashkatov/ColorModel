@@ -2,7 +2,7 @@
 //  ColorModelTests.swift
 //  ColorModel
 //
-//  Created by Valery Bashkatov on 06.09.16.
+//  Created by Valery Bashkatov on 06.08.16.
 //  Copyright © 2016 Valery Bashkatov. All rights reserved.
 //
 
