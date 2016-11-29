@@ -3,7 +3,7 @@ build/
 DerivedData/
 
 ## Documentation
-Reference/
+Documentation/
 
 ## Various settings
 *.pbxuser
@@ -28,5 +28,5 @@ xcuserdata/
 timeline.xctimeline
 playground.xcworkspace
 
-# Carthage
+## Carthage
 Carthage/

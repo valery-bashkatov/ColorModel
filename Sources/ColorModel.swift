@@ -15,7 +15,7 @@ open class ColorModel: CustomStringConvertible {
     
     // MARK: - Properties
     
-    /// The internal flag to prevent loops: changing the components changes color and brings components updating.
+    /// An internal flag to prevent loops: changing the components changes color and brings components updating.
     fileprivate var needsUpdateColor = true
     
     /// The `UIColor` associated with model.
