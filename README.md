@@ -7,7 +7,6 @@
 
 ## Installation
 ### Carthage
-
 To integrate `ColorModel` into your project using [Carthage](https://github.com/Carthage/Carthage), specify it in your `Cartfile`:
 
 ```
@@ -20,7 +19,6 @@ And then follow the [instructions](https://github.com/Carthage/Carthage#if-youre
 API Reference is located at [http://valery-bashkatov.github.io/ColorModel](http://valery-bashkatov.github.io/ColorModel).
 
 ## Usage
-
 ```swift
 import ColorModel
 
