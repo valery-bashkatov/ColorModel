@@ -1,7 +1,5 @@
 # ColorModel
-
-## Description
-Allows to work with colors through RGB, HSB or grayscale components.
+`ColorModel` allows to work with colors through RGB, HSB and grayscale components.
 
 ## Requirements
 - iOS 9.0+
