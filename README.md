@@ -4,7 +4,7 @@
 [![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)]()
 
 ## Description
-Allows to work with color through RGB, HSB and grayscale components.
+Allows to work with colors through RGB, HSB or grayscale components.
 
 ## Requirements
 - iOS 9.0+

@@ -13,7 +13,7 @@ class ColorModelTests: XCTestCase {
     
     // No reset hue to 0 when the brightness and saturation are set to 0
     func testNoResetHue() {
-        let colorModel = ColorModel(color: UIColor.redColor())
+        let colorModel = ColorModel(color: UIColor.green)
         
         colorModel.brightness = 0
         colorModel.saturation = 0
@@ -23,7 +23,7 @@ class ColorModelTests: XCTestCase {
     
     // No reset saturation to 0 when the brightness is set to 0
     func testNoResetSaturation() {
-        let colorModel = ColorModel(color: UIColor.yellowColor())
+        let colorModel = ColorModel(color: UIColor.yellow)
         
         colorModel.brightness = 0
         
