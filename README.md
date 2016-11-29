@@ -8,6 +8,7 @@ Allows to work with colors through RGB, HSB or grayscale components.
 
 ## Requirements
 - iOS 9.0+
+- Swift 3
 
 ## Installation
 ### Carthage
@@ -16,7 +17,7 @@ To integrate `ColorModel` into your project using [Carthage](https://github.com/
 
 #### Swift 2.3
 ```
-github "valery-bashkatov/ColorModel" ~> 1.0
+github "valery-bashkatov/ColorModel" ~> 2.0.0
 ```
 
 #### Swift 3
