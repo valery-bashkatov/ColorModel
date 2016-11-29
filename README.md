@@ -15,12 +15,6 @@ Allows to work with colors through RGB, HSB or grayscale components.
 
 To integrate `ColorModel` into your project using [Carthage](https://github.com/Carthage/Carthage), specify it in your `Cartfile`:
 
-#### Swift 2.3
-```
-github "valery-bashkatov/ColorModel" ~> 2.0.0
-```
-
-#### Swift 3
 ```
 github "valery-bashkatov/ColorModel" ~> 2.0.0
 ```
