@@ -47,10 +47,10 @@ class ColorModelTests: XCTestCase {
         
         color.getRed(&red, green: &green, blue: &blue, alpha: &alpha)
         
-        XCTAssertEqualWithAccuracy(red, 0.17, accuracy: 0.001)
-        XCTAssertEqualWithAccuracy(green, 0.17, accuracy: 0.001)
-        XCTAssertEqualWithAccuracy(blue, 0.17, accuracy: 0.001)
-        XCTAssertEqualWithAccuracy(alpha, 0.17, accuracy: 0.001)
+        XCTAssertEqual(red, 0.17, accuracy: 0.001)
+        XCTAssertEqual(green, 0.17, accuracy: 0.001)
+        XCTAssertEqual(blue, 0.17, accuracy: 0.001)
+        XCTAssertEqual(alpha, 0.17, accuracy: 0.001)
     }
     
     func testHSB() {
@@ -70,10 +70,10 @@ class ColorModelTests: XCTestCase {
         
         color.getHue(&hue, saturation: &saturation, brightness: &brightness, alpha: &alpha)
         
-        XCTAssertEqualWithAccuracy(hue, 0.25, accuracy: 0.01)
-        XCTAssertEqualWithAccuracy(saturation, 0.22, accuracy: 0.01)
-        XCTAssertEqualWithAccuracy(brightness, 0.67, accuracy: 0.01)
-        XCTAssertEqualWithAccuracy(alpha, 0.17, accuracy: 0.01)
+        XCTAssertEqual(hue, 0.25, accuracy: 0.01)
+        XCTAssertEqual(saturation, 0.22, accuracy: 0.01)
+        XCTAssertEqual(brightness, 0.67, accuracy: 0.01)
+        XCTAssertEqual(alpha, 0.17, accuracy: 0.01)
     }
     
     func testRGBtoHSB() {
@@ -88,9 +88,9 @@ class ColorModelTests: XCTestCase {
         
         color.getHue(&hue, saturation: &saturation, brightness: &brightness, alpha: &alpha)
         
-        XCTAssertEqualWithAccuracy(hue, 0.622, accuracy: 0.001)
-        XCTAssertEqualWithAccuracy(saturation, 0.812, accuracy: 0.001)
-        XCTAssertEqualWithAccuracy(brightness, 0.502, accuracy: 0.001)
-        XCTAssertEqualWithAccuracy(alpha, 1.0, accuracy: 0.001)
+        XCTAssertEqual(hue, 0.622, accuracy: 0.001)
+        XCTAssertEqual(saturation, 0.812, accuracy: 0.001)
+        XCTAssertEqual(brightness, 0.502, accuracy: 0.001)
+        XCTAssertEqual(alpha, 1.0, accuracy: 0.001)
     }
 }
